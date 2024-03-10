@@ -1,8 +1,8 @@
-def get_p(str1, str2):
+def get_p(input_str,output_str):
     list=[]
-    for y in str2:
-        if y in str1:
-            list.append (str1.index(y))
+    for y in output_str:
+        if y in input_str:
+            list.append (input_str.index(y))
     return list
 
-print(get_p("asd","dsa"))
+print(get_p("asd","sad"))
